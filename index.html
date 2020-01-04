@@ -1,90 +1,101 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+<html_lang="ja">
+    <head>
+        <meta_charset="UTF-8">
+        <title>Coggie stand</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!--ヘッダー-->
+        <header>
+            <h1><a href="index.html"><img src="images/logo.png" alt="Coggie stand"></a></h1>
+            <div id="header_contact"><a href="contact.html"><img src="images/btn_contact.png" alt="contact"></a></div>
+            <nav id="global_navi">
+                <ul>
+                    <li class="current"><a href="index.html">HOME</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="access.html">access</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <!--メインビジュアル画像-->
+            <div id="main visual">
+                <p><img src="images/main_visual.jpg" alt="松本翔ポートフォリオ"></p>
+            </div>
+        </header>
+        <!--/ヘッダー-->
+
+        <!--wrapper-->
+        <div id="wrapper">
+            <!--メイン-->
+            <div id="main">
+                <section id="point">
+                    <h2>Coggie standとは</h2>
+                    <section>
+                        <h3>私、松本　翔（Coggie)が作品づくりをする際にコーヒースタンドのように<br>
+                            ひとつひとつ良質な作品を提供できるようにと考えたプラットフォームです。<br>
+                            主にイラストやデザインなどを中心に創作活動を行っております。</h3>
+                        <figure>
+                            <img src="images/photo01.jpg" alt="サンプル1">
+                            <figcaption>ロゴデザイン</figcaption>
+                        </figure>
+                        <p>デザインとは情報を伝える為のツール。<br>
+                            目的を正しく見極め、必要な要素を盛り込み、<br>
+                            ビジュアルへと落とし込む過程が楽しみです。</p> 
+                        <figure>
+                            <img src="images/photo02.jpg" alt="サンプル2">
+                            <figcaption>イベント出展時のスペースの様子</figcaption>
+                        </figure>
+                        <p>日頃習慣的に行っている創作活動に発表の場を用意することで、<br>
+                            作品として昇華することができると考えています。</p>
+                        <figure>
+                            <img src="images/photo03.jpg" alt="サンプル3">
+                            <figcaption>名刺のモックアップ</figcaption>
+                        </figure>
+                        <p>作品をより多くの人へ観てもらうためには、<br>
+                            作者自身が積極的にプロモーションする必要があり、<br>
+                            名刺自体も作品となるといえます。</p>    
+                    </section>
+                </section>    
+            </div>
+            <!--/メイン-->
+
+            <!--サイド-->
+            <aside id="sidebar">
+                <section id="side_banner">
+                    <h2>link</h2>
+                    <ul>
+                        <li><a href="#" target=" blank"><img src="images/banner01.jpg" alt="coffee blog"></a></li>
+                        <li><a href="https://twitter.com/Coggie_daze" target=" blank"><img src="images/banner02.jpg" alt="twitter"></a></li>
+                    </ul>
+
+                </section>
+                <section id="side contact">
+
+                </section>
+            </aside>
+            <!--/サイド-->
+
+
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
-</html>
+        <!--/wrapper-->
+
+        <!--フッター-->
+        <footer>
+            <div id="footer nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="global.html">gallery</a></li>
+                    <li><a href="access.html">access</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <small>&copy; 2020 Coggie stand.</small>
+        </footer>
+        <!--/フッター-->
+
+    </body>
+</html_lang>
